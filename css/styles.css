@@ -601,6 +601,176 @@ header {
     margin-bottom: 50px;
   }
 }
+.special-offers {
+  max-width: 980px;
+  margin: 50px auto 0 auto;
+}
+.special-offers .offers-content .underline {
+  margin-bottom: 20px;
+}
+.special-offers .offers-content .underline span {
+  font-family: Proximal;
+  font-size: 40px;
+  border-bottom: 1px solid black;
+  margin-bottom: 35px;
+}
+.special-offers .offers-content .quote-row {
+  max-width: 556px;
+  min-height: 287px;
+  display: flex;
+  margin-bottom: 60px;
+}
+.special-offers .offers-content .quote-row .quote-image {
+  width: 200px;
+  height: 287px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.special-offers .offers-content .quote-row .spain {
+  background-image: url(../images/special-offer-01.jpg);
+}
+.special-offers .offers-content .quote-row .thai {
+  background-image: url(../images/special-offer-02.jpg);
+}
+.special-offers .offers-content .quote-row .quote-text {
+  position: relative;
+  min-height: 50px;
+  width: 100%;
+  padding-left: 25px;
+  padding-bottom: 45px;
+}
+.special-offers .offers-content .quote-row .quote-text h2 {
+  font-family: Proximal;
+  font-size: 20px;
+  color: #FF7D38;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.special-offers .offers-content .quote-row .quote-text .button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79ADDC;
+  position: absolute;
+  bottom: 0;
+  width: 133px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: Gill;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+.special-offers .offers-content .quote-row .quote-text p {
+  font-family: Gill;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .special-offers {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .special-offers .offers-content .quote-row .quote-text h2 {
+    position: static;
+  }
+}
+.blog {
+  width: 980px;
+  margin: 50px auto 0 auto;
+}
+.blog h2 {
+  font-family: Proximal;
+  font-size: 60px;
+  width: 140px;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+.blog .blog-entry {
+  display: flex;
+  justify-content: space-between;
+}
+.blog .blog-entry .date {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #79ADDC;
+}
+.blog .blog-entry .date .num {
+  font-family: Gill;
+  font-size: 22px;
+  color: white;
+  margin: 0;
+}
+.blog .blog-entry .date .month {
+  font-family: Gill;
+  font-size: 12px;
+  color: white;
+  margin: 0;
+}
+.blog .blog-entry .entry {
+  width: 900px;
+  margin-bottom: 100px;
+}
+.blog .blog-entry .entry .entry-image {
+  width: 100%;
+  height: 259px;
+  margin-bottom: 20px;
+  background-image: url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blog .blog-entry .entry p {
+  max-width: 380px;
+  font-family: Gill;
+}
+
+@media only screen and (max-width: 1060px) {
+  .blog {
+    width: 90%;
+  }
+  .blog .blog-entry {
+    flex-direction: column;
+  }
+  .blog .blog-entry .entry {
+    width: 100%;
+  }
+}
+.contact {
+  width: 980px;
+  margin: 50px auto 0 auto;
+  background-color: yellowgreen;
+}
+.contact .underline {
+  margin-bottom: 20px;
+}
+.contact .underline span {
+  font-family: Proximal;
+  font-size: 40px;
+  border-bottom: 1px solid black;
+  margin-bottom: 35px;
+}
+.contact .contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .contact-content .left {
+  width: 400px;
+  background-color: pink;
+}
+.contact .contact-content .right {
+  width: 530px;
+  background-color: purple;
+}
+
 footer {
   width: 100%;
   height: 100px;

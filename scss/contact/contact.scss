@@ -1,0 +1,45 @@
+.contact {
+    width: 980px;
+    margin: 50px auto 0 auto;
+
+    background-color: yellowgreen;
+
+    .underline {
+        // background-color: crimson;
+
+        margin-bottom: 20px;
+
+        span {
+            font-family: Proximal;
+            font-size: 40px; 
+
+            // min-width: 240px;
+            
+            
+            // background-color: burlywood;
+            border-bottom: 1px solid $site-black;
+
+            margin-bottom: 35px;
+        }
+    }
+
+    .contact-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            width: 400px;
+
+            background-color: pink;
+        }
+    
+        .right {
+            width: 530px;
+
+            background-color: purple;
+        }
+    }
+
+
+}
