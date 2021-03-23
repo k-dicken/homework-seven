@@ -3,15 +3,17 @@
 
     margin: 50px auto 0 auto;
 
-    h2 {
-        font-family: Proximal;
-        font-size: $title;
+    .underline {
+        margin-bottom: 30px;
 
-        width: 140px;
+        span {
+            font-family: Proximal;
+            font-size: $title; 
 
-        border-bottom: 1px solid $site-black;
+            border-bottom: 1px solid $site-black;
 
-        margin-bottom: 40px;
+            margin-bottom: 35px;
+        }
     }
 
     .blog-entry {

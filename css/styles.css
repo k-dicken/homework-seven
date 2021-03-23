@@ -328,11 +328,14 @@ nav .links p {
 .about .about-content {
   margin: 100px 0 100px 0;
 }
-.about .about-content h2 {
+.about .about-content .underline {
+  margin-bottom: 30px;
+}
+.about .about-content .underline span {
   font-family: Proximal;
   font-size: 60px;
-  width: 140px;
   border-bottom: 1px solid black;
+  margin-bottom: 35px;
 }
 .about .about-content p {
   min-height: 96px;
@@ -342,12 +345,14 @@ nav .links p {
 .about .client-quotes {
   margin-bottom: 200px;
 }
-.about .client-quotes h3 {
+.about .client-quotes .underline {
+  margin-bottom: 30px;
+}
+.about .client-quotes .underline span {
   font-family: Proximal;
   font-size: 40px;
-  width: 190px;
   border-bottom: 1px solid black;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 .about .client-quotes .quote-row {
   max-width: 676px;
@@ -682,12 +687,14 @@ header {
   width: 980px;
   margin: 50px auto 0 auto;
 }
-.blog h2 {
+.blog .underline {
+  margin-bottom: 30px;
+}
+.blog .underline span {
   font-family: Proximal;
   font-size: 60px;
-  width: 140px;
   border-bottom: 1px solid black;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 .blog .blog-entry {
   display: flex;
@@ -748,7 +755,7 @@ header {
   margin: 50px auto 100px auto;
 }
 .contact .underline {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .contact .underline span {
   font-family: Proximal;
